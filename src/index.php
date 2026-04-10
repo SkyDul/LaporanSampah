@@ -77,6 +77,13 @@
                         </div>
                         <span class="badge badge-custom bg-danger text-white shadow-sm">Limbah B3 / Khusus</span>
                     </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center gap-3">
+                            <i class="ph-fill ph-warning-octagon fs-4 text-danger"></i>
+                            <strong class="text-dark">tes CI/CD</strong>
+                        </div>
+                        <span class="badge badge-custom bg-danger text-white shadow-sm">Percobaan pertama</span>
+                    </li>
                 </ul>
             </div>
         </div>
