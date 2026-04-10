@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['foto'])) {
                 'Bucket' => $bucketName,
                 'Key'    => $fileName,
                 'SourceFile' => $filePath,
-                'ACL'    => 'public-read' 
+                // 'ACL'    => 'public-read'  <-- Hapus atau komentari baris ini
             ]);
             
             $fotoUrl = $result->get('ObjectURL');
