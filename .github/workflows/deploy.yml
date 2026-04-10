@@ -28,5 +28,6 @@ jobs:
             git pull origin main
             
             # Membangun dan menjalankan Docker
-            sudo docker build -t web-app-image src/
+            sudo docker build -t web-app-image -f src/Dockerfile .
             sudo docker run -d -p 80:80 --name web-laporsampah web-app-image
+
