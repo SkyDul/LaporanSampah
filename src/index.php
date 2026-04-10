@@ -82,7 +82,7 @@
                             <i class="ph-fill ph-warning-octagon fs-4 text-danger"></i>
                             <strong class="text-dark">tes CI/CD</strong>
                         </div>
-                        <span class="badge badge-custom bg-danger text-white shadow-sm">Percobaan pertama</span>
+                        <span class="badge badge-custom bg-danger text-white shadow-sm">Percobaan pertamaa</span>
                     </li>
                 </ul>
             </div>
